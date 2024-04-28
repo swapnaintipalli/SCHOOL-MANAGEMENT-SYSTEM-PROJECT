@@ -1,0 +1,51 @@
+/* Apply background image to the login page container */
+.login-page-container {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/01/19/11/55/1000_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to fill the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    max-width: 350px;
+  }
+  
+  /* Form input fields */
+  .form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #007bff; /* Underline effect */
+    border-radius: 0;
+    background-color: transparent; /* Transparent background */
+    transition: border-bottom-color 0.3s;
+  }
+  
+  .form input:focus {
+    outline: none;
+    border-bottom-color: #0056b3; /* Darker underline color on focus */
+  }
+  
+  /* Submit button */
+  .form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  

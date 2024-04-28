@@ -1,0 +1,34 @@
+body {
+  background-image: url('https://stability-images-upload.s3.amazonaws.com/v1_txt2img_6bd04db0-3d0b-45bf-8207-faa5b115401f.png'); /* Add background image to the body */
+   
+  background-size : cover; 
+}
+nav ul {
+  list-style-type:circle;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 100%;
+  border-color: rgb(147, 28, 237);
+  block-size: 100%;
+  margin: 5%;
+  color: rgb(1, 17, 17);
+  margin-block: 40px;
+}
+
+nav ul li a {
+  text-decoration:solid;
+  color:rgb(13, 2, 55);
+  font-weight: bold;
+  padding: 10px 20px; /* Add padding to create a button-like appearance */
+  border-radius: 20px; /* Add rounded corners */
+  transition: background-color 0.3s ease;
+ 
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Change background color on hover */
+}

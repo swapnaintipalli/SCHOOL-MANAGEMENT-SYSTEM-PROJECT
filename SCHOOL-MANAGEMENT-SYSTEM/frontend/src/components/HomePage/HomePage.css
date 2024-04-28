@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/woman-standing-watching-students-working-tablets_259150-60238.jpg?t=st=1714150874~exp=1714154474~hmac=f8ea4d4b9a89690b410d97c5332df9efe5b589e31bab0336003e4363f33f5c1d&w=996");
+    background-size: cover;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  /* Styles for the image container */
+  
+  
+  /* Styles for the text container */
+  .text-container {
+    grid-column: 1/ span 1;
+  }
+  
+  /* Styles for the login section */
+  .login {
+    margin-top: 20px;
+    grid-column: 2/span 1;
+  }
+  
+  /* Styles for the get-started button */
+  .get-started-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    grid-column: 2/span 1;
+  }
+  
+  .get-started-button:hover {
+    background-color: #0056b3;
+  }
+  
